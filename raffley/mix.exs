@@ -41,6 +41,7 @@ defmodule Raffley.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.8.15"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:phoenix_ecto, "~> 4.5"},
       {:ecto_sql, "~> 3.13"},
       {:postgrex, ">= 0.0.0"},
